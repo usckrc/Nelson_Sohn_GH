@@ -1,0 +1,123 @@
+---
+title: "Kidney Physiology"
+author: "Deborah Sohn"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: 
+  html_document:
+    toc: yes
+    toc_depth: 5
+    toc_float: true
+    number_sections: true
+    df_print: paged
+    code_folding: hide
+    highlight: pygments
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+set.seed((12345))
+#here
+```
+
+
+
+
+# Introduction:
+The purpose of this tutorial is to provide a strong base knowledge of the kidney to work off of. This tutorial will include sections of the kidney chapter of 'Medical Physiology' by Walter F. Boron and Emile L. Boulpaep. It will also include a link to a short quiz to check your knowledge. After taking the quiz, the correct answers and feedback shoudl be available for review. This tutorial will also include supplemental materials that may be helpful for the reader 
+
+# Organization of the Urinary System
+
+## Textbook and Quiz:
+
+[Textbook Section 1](https://drive.google.com/file/d/16lWXGo-N-21KLgtJg2K2jdkOcjcxrWaA/view?usp=drive_link)
+
+[Quiz Section 1](https://forms.gle/ih9Jx2r3itE7Cxip6)
+
+
+## Supplemental Materials:
+[Khan Academy: Meet the kidneys!](https://www.khanacademy.org/test-prep/mcat/organ-systems/the-renal-system/v/meet-the-kidneys)
+
+
+# Glomerular Filtration and Renal Blood flow
+
+## Textbook and Quiz:
+
+[Textbook Section 2](https://drive.google.com/file/d/13y4y6MfteTTRXDEmhFkKAqvGAkStXyXt/view?usp=drive_link)
+
+[Quiz Section 2](https://docs.google.com/forms/d/e/1FAIpQLScwqqfJYvJiPT9gfKnM6EKCQp25Jk8fTJKehsySHRQC2hvQyw/viewform?usp=header)
+
+## Supplemental Materials:
+
+
+# Transport of Sodium and Chloride
+
+## Textbook and Quiz:
+
+[Textbook Section 3](https://drive.google.com/file/d/1k8VmoxN95umcmXhdrt5y6AScVSZFiyke/view?usp=drive_link)
+
+[Quiz Section 3](https://docs.google.com/forms/d/e/1FAIpQLSdEil0pf0FkiUzd0XaMzNkoAHFimEM1WAQQn5qPI5jfvdT2oA/viewform?usp=header)
+
+## Supplemental Materials:
+
+
+# Transport of Urea, Glucose, Phosphate, Calcium, Magnesium, and Organic Solutes
+
+## Textbook and Quiz:
+
+[Textbook Section 4](https://drive.google.com/file/d/1si8JZJ8myI1cOtn7Z95x6v4AKrcVpt-u/view?usp=drive_link)
+
+[Quiz Section 4](https://docs.google.com/forms/d/e/1FAIpQLSeZk38rAy__6KYtEPSRVQsA4Aeca4-WZ6ZcWJbCI927OJjTNA/viewform?usp=header)
+
+## Supplemental Materials:
+
+
+# Transport of Potassium
+
+## Textbook and Quiz:
+
+[Textbook Section 5](https://drive.google.com/file/d/1A5128uaLpZnkWP7hM5-zL_HAOa56s55M/view?usp=drive_link)
+
+[Quiz Section 5](https://docs.google.com/forms/d/e/1FAIpQLScg-5WzK3HDRIj--Fq1FPRWIActFUNdVSCMi2VzbrstBB8E-g/viewform?usp=header)
+
+## Supplemental Materials:
+
+
+# Urine Concentration and Dilution
+
+## Textbook and Quiz:
+
+[Textbook Section 6](https://drive.google.com/file/d/1C982944yShaePHacNADOP_WkYkHQR5jS/view?usp=drive_link)
+
+[Quiz Section 6](https://docs.google.com/forms/d/e/1FAIpQLSezlnTtO9CJJMeT62AL00CnUQONuBcrDNIoB6-N-J_il9fBMQ/viewform?usp=header)
+
+## Supplemental Materials:
+
+
+# Transport of Acids and Bases
+
+## Textbook and Quiz:
+
+[Textbook Section 7](https://drive.google.com/file/d/1cRGSnYNQzjQzKMaAUrUWz7VC2fQNYCYf/view?usp=drive_link)
+
+[Quiz Section 7](https://docs.google.com/forms/d/e/1FAIpQLSeAwZuHyk8xKoKgtqFE09Y-gl4ow_BjOsLP6wVlF63el9VwUQ/viewform?usp=header)
+
+## Supplemental Materials:
+
+
+# Integration of Salt and Water Balance
+
+## Textbook and Quiz:
+
+[Textbook Section 8](https://drive.google.com/file/d/1QhOWuIBr6LjJF0R4yUGvLr2NyT6q1jqx/view?usp=drive_link)
+
+[Quiz Section 8](https://docs.google.com/forms/d/e/1FAIpQLSd2wCKIvuuWjzAuixYjj2FTLP3uaFX1aqoTJpzy5gGgOEoMKA/viewform?usp=header)
+
+## Supplemental Materials:
+
+
+
+
+
+
+
