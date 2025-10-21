@@ -1,17 +1,19 @@
 ---
-title: "Kidney Physiology"
+title: "Foundational Kidney Physiology"
 author: "Deborah Sohn"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output: 
   html_document:
+    theme: united
+    css: mystyle.css
+    highlight: zenburn
     toc: yes
     toc_depth: 5
     toc_float: true
     number_sections: false
     df_print: paged
     code_folding: hide
-    highlight: pygments
-    
+   
 ---
 
 ```{r setup, include=FALSE}
@@ -22,16 +24,32 @@ library(here)
 
 # Introduction
 
-![](`r here::here("ds_code", "physiology", "images", "Welcome.png")`)
+![](`r here::here("ds_code", "physiology", "images", "Welcome.png")`){.center width="60%"}
 
-The purpose of this tutorial is to provide a strong base knowledge of the kidney to work off of. This tutorial will include sections of the kidney chapter of 'Medical Physiology' by Walter F. Boron and Emile L. Boulpaep. It will also include a link to a short quiz to check your knowledge. After taking the quiz, the correct answers and feedback should be available for review. This tutorial will also include supplemental materials that may be helpful for the reader 
+The kidney is a **marvel of biological design**. A compact organ that embodies the **wonder and mystery** of physiology itself. Within its intricate architecture, millions of nephrons work in perfect synchrony to **filter blood, balance electrolytes, regulate blood pressure, and maintain the body’s delicate internal equilibrium**. Renal physiology is both **complex and elegant**: from the selective permeability of glomerular membranes to the finely tuned transport systems along the nephron, every process is a lesson in precision and adaptation. To study the kidney is to **explore physiology** at its most refined. An area where molecular signaling, cellular specialization, and systemic integration converge in a symphony of function. Few organs reveal the principles of homeostasis and biological harmony as profoundly as the kidney, making its study not only **intellectually rewarding** but **essential to understanding** the very essence of life’s regulation.
 
+**This page was created** to serve as a **shared foundation** for members of the Nelson Lab as a resource to align our understanding of the **fundamental principles** that govern renal physiology. By revisiting the **essential mechanisms** of kidney function, from filtration and tubular transport to hormonal regulation and cellular signaling, we establish a **common language for exploring the unknown**. Our research often ventures into uncharted territory, where new discoveries about kidney **cell types**, **regeneration**, and **disease mechanisms** depend on a **deep grasp** of physiological context. This shared foundation ensures that **every member** approaches these mysteries with the same **conceptual grounding**, enabling us to **interpret data** thoughtfully, **design experiments** effectively, and **contribute** collectively to advancing the frontier of kidney science.
+
+# How To Use This Page
+
+Each topic on this page corresponds to sections from **[Medical Physiology](https://emedicodiary.com/book/view/135/boron-boulpaep-medical-physiology#google_vignette)** by Walter F. Boron and Emile L. Boulpaep; one of the **most comprehensive** and insightful texts on human physiology. The material is organized to build a structured understanding of renal function, from the fundamental principles of filtration and reabsorption to the complex regulatory mechanisms and pathophysiological states that define kidney biology.
+
+**Following each topic**, you’ll find a short multiple-choice quiz designed to help reinforce key concepts. When taking a quiz, please enter your name in the provided field and select the answers you believe are correct. The purpose of these quizzes is reflection, not assessment—they’re meant to strengthen retention, highlight areas that may need revisiting, and encourage active engagement with the material.
+
+**Important: Please do not use Google, ChatGPT, or other external resources to find answers.** The goal is to challenge your own understanding and identify where your reasoning is strong and where it might need more reinforcement. The best learning happens when you think critically, revisit the text, and connect each physiological mechanism to the broader picture of kidney function.
+
+**After each quiz**, Jonathan will review the topic with you and suggest additional resources to help clarify or deepen your understanding where needed.
+
+**Some topics** also include **supplementary materials** and references that relate directly to ongoing or planned projects in the Nelson Lab. These are intended to help bridge **textbook learning** with the **real-world research questions** we explore together.
+
+<br>
+<br>
 
 # Kidney Topics
 
 ## Organization of the Urinary System
 
-![](`r here::here("ds_code", "physiology", "images", "tb1.png")`)
+![](`r here::here("ds_code", "physiology", "images", "tb1.png")`){.center width="60%"}
 
 ### Textbook
 
@@ -50,7 +68,7 @@ The purpose of this tutorial is to provide a strong base knowledge of the kidney
 
 ## Glomerular Filtration and Renal Blood flow
 
-![](`r here::here("ds_code", "physiology", "images", "tb2.png")`)
+![](`r here::here("ds_code", "physiology", "images", "tb2.png")`){.center width="60%"}
 
 ### Textbook
 
@@ -67,7 +85,7 @@ The purpose of this tutorial is to provide a strong base knowledge of the kidney
 
 ## Transport of Sodium and Chloride
 
-![](`r here::here("ds_code", "physiology", "images", "tb3.png")`)
+![](`r here::here("ds_code", "physiology", "images", "tb3.png")`){.center width="60%"}
 
 ### Textbook
 
@@ -84,7 +102,7 @@ The purpose of this tutorial is to provide a strong base knowledge of the kidney
 
 ## Transport of Urea, Glucose, Phosphate, Calcium, Magnesium, and Organic Solutes
 
-![](`r here::here("ds_code", "physiology", "images", "tb4.png")`)
+![](`r here::here("ds_code", "physiology", "images", "tb4.png")`){.center width="60%"}
 
 ### Textbook
 
@@ -101,7 +119,7 @@ The purpose of this tutorial is to provide a strong base knowledge of the kidney
 
 ## Transport of Potassium
 
-![](`r here::here("ds_code", "physiology", "images", "tb5.png")`)
+![](`r here::here("ds_code", "physiology", "images", "tb5.png")`){.center width="60%"}
 
 ### Textbook
 
@@ -118,7 +136,7 @@ The purpose of this tutorial is to provide a strong base knowledge of the kidney
 
 ## Urine Concentration and Dilution
 
-![](`r here::here("ds_code", "physiology", "images", "tb6.png")`)
+![](`r here::here("ds_code", "physiology", "images", "tb6.png")`){.center width="60%"}
 
 ### Textbook
 
@@ -135,7 +153,7 @@ The purpose of this tutorial is to provide a strong base knowledge of the kidney
 
 ## Transport of Acids and Bases
 
-![](`r here::here("ds_code", "physiology", "images", "tb7.png")`)
+![](`r here::here("ds_code", "physiology", "images", "tb7.png")`){.center width="60%"}
 
 ### Textbook
 
@@ -152,7 +170,7 @@ The purpose of this tutorial is to provide a strong base knowledge of the kidney
 
 ## Integration of Salt and Water Balance
 
-![](`r here::here("ds_code", "physiology", "images", "tb8.png")`)
+![](`r here::here("ds_code", "physiology", "images", "tb8.png")`){.center width="60%"}
 
 ### Textbook
 
